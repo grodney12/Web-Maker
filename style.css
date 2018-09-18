@@ -9,3 +9,19 @@ body {
     width: 100%;
 }
 
+.sw-90-width {
+    width: 90%;
+}
+
+a:hover {
+    text-decoration:none; 
+    color:black;
+}
+
+.padding-left {
+    padding-left: 30px;
+}
+
+.display-inline {
+    display: inline;
+} 
