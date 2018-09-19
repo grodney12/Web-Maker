@@ -15,31 +15,82 @@
 
 <body>
     <!--Navbar-->
-<nav class="navbar navbar-dark bg-dark fixed-top row">
+<nav class="navbar navbar-dark bg-dark fixed-top row nav-height">
     <!--Left Nav-->
-    <div class="col-4">
-            <a class="color-white" href="../User/Profile.html"><i class="fas fa-chevron-left"></i></a>
+    <div class="col-4 d-none d-sm-block">
+            <a class="color-white" href="../Website/Website-list.html"><i class="fas fa-chevron-left"></i></a>
+        
             <a class="color-white padding-left" href="#">
-                <h5 class="display-inline">Websites</h5>
-        </a>
-            <a class="color-white float-right"
-            href="Website-new.html"><i class="fas fa-plus"></i>
-        </a>
-    
+            <h5 class="display-inline">Websites</h5></a>
+            
+            <a class="color-white float-right" href="Website-new.html"><i class="fas fa-plus"></i></a>
     </div>
     <!--Right Nav-->
-    <div class="col-8">
-            <a class="color-white" href="#"><h5 class="display-inline">New Website</h5></a>
+    <div class="col-sm-8">
+      
+            <a class="color-white d-sm-none" href="../Website/Website-list.html"><i class="fas fa-chevron-left"></i></a>
+            <a class="color-white padding-left" href="#">
+            <h5 class="display-inline">New Website</h5></a>
+       
             <!--Check-->
-             <a class="color-white" href="#"><i class="fas fa-check-double float-right"></i></a> 
-
+            <a class="color-white padding-left" href="../Website/Website-list.html"><i class="fas fa-check-double float-right"></i></a> 
+        
 
     </div>
 </nav>        
     <!--List & Form-->
+    <div class="row">
+        <!--Left List-->
+        <div class="col-4">
+           <div class="container-fluid">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="float-right" href="#"><i class="fas fa-cogs"></a></i>
+                        <a href="#">Address Book App</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="float-right" href="#"><i class="fas fa-cogs"></i></a>
+                        <a href="#">Blogger</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="float-right" href="#"><i class="fas fa-cogs"></i></a>
+                        <a href="#">Blogging App</a>
+                    </li>
+                    <li class="list-group-item"><a class="float-right" href="#"><i class="fas fa-cogs"></i></a>
+                        <a href="#">Script Testing App</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Right Form-->
+        <div class="col-sm-8">
+            <div class="container-fluid">
+                <form>
+                    <div class="form-group">
+                        <label for="name"><b>Name</b></label>
+                        <input id="name"
+                        class="form-control" type="text" placeholder="Name of the website">
+                    </div>
+                    <div class="form-group">
+                        <label for="description"><b>Description</b></label>
+                        <textarea rows="10" id="description"
+                        class="form-control" type="text" placeholder="Descripe the website"></textarea>
+                    </div>
+                    <a href="../Website/Website-list.html" class="btn btn-lg btn-success">Submit
+                    </a>
+                    <a href="../Website/Website-list.html" class="btn btn-lg btn-danger float-right">Cancel
+                    </a>
+                </form>
+            </div>
+        </div>
 
+    </div>
     
     <!--Footer-->
+    <nav class="navbar navbar-dark bg-dark fixed-bottom">              
+            <!--Check-->
+            <div class="full-width">
+                <a class="color-white float-right" href="../User/Profile.html"><i class="fas fa-user"></i></a>
 
 </body>
 </html>
