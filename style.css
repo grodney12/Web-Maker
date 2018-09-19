@@ -30,3 +30,7 @@ a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.align-center {
+    text-align:center;
+}
